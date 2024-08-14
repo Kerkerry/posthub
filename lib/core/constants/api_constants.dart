@@ -1,0 +1,10 @@
+const kBaseUrl = 'jsonplaceholder.typicode.com';
+const kCreateUserEndpoint = '/users';
+const kGetUserEndpoint = '/users';
+const kCreatePostsEndpoint = '/posts';
+const kGetPostsEndpoint = '/posts';
+const kGetCommentsEndpoint = '/comments';
+const kAlbumsEndpoint = '/albums';
+const kPhotosEndpoint = '/photos';
+const kTodosEndPoint = '/todos';
+const headers = {'Content-Type': 'application/json'};

@@ -1,0 +1,26 @@
+import 'package:flutter/material.dart';
+import 'package:posthub/core/router/routing_constants.dart';
+import 'package:posthub/src/albums/presentation/screens/album_detail_screen.dart';
+import 'package:posthub/src/albums/presentation/screens/albums_screens.dart';
+import 'package:posthub/src/albums/presentation/screens/user_albums_screen.dart';
+import 'package:posthub/src/comments/presentation/screen/comments_detail_screen.dart';
+import 'package:posthub/src/comments/presentation/screen/comments_screen.dart';
+import 'package:posthub/src/photos/presentation/screens/album_photos_screen.dart';
+import 'package:posthub/src/photos/presentation/screens/photo_detail_screen.dart';
+import 'package:posthub/src/photos/presentation/screens/photos_screen.dart';
+import 'package:posthub/src/posts/domain/entities/post.dart';
+import 'package:posthub/src/posts/presentation/screens/post_comment_details_scree.dart';
+import 'package:posthub/src/posts/presentation/screens/posts_screen.dart';
+import 'package:posthub/src/posts/presentation/screens/user_posts_screen.dart';
+import 'package:posthub/src/todos/presentation/screens/completed_todos_screen.dart';
+import 'package:posthub/src/todos/presentation/screens/incomplete_todos_screen.dart';
+import 'package:posthub/src/todos/presentation/screens/todo_detail_screen.dart';
+import 'package:posthub/src/todos/presentation/screens/todos_screen.dart';
+import 'package:posthub/src/todos/presentation/screens/user_todo_screen.dart';
+import 'package:posthub/src/users/domain/entities/user.dart';
+import 'package:posthub/src/users/presentation/screens/authenticate_screen.dart';
+import 'package:posthub/src/users/presentation/screens/home_screen.dart';
+import 'package:posthub/src/users/presentation/screens/user_detail_screen.dart';
+import 'package:posthub/undefined_screen.dart';
+
+part 'router.dart';
